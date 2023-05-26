@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@300;400&family=Roboto:ital,wght@1,100&display=swap");
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: #e1eded;
+}
+
+/* FONTE */ 
+h1{
+    font-family: 'montserrat', sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+h2{
+   font-family: 'montserrat', sans-serif;
+   font-weight: 200;
+   font-size: large;
+   letter-spacing: 1px;
+}
+
+p{
+    font-family: 'raleway', sans-serif;
+    font-weight: lighter;
+}
+
+/* HEADER */
+header{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    text-align: right;
+}
+
+nav a{
+    font-family: 'montserrat';
+    font-weight: 200;
+    font-size: large;
+    letter-spacing: 1px;
+    
+    margin-left: 15px;
+}
+
+nav a:hover{
+    color: #1e929e;
+}
+
+
+
+/* TEKST */ 
+.overskrift{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+    margin-top: 4%;
+
+}
+
+.brødtekst{
+    margin: auto;
+    width: 50%;
+    padding: 1%;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    line-height: 1.5;
+    
+}
+
+/* VENSTRE */
+.imgvenstre{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    display: flex;
+
+    border-bottom: solid;
+    border-top: solid;
+    border-color: black;
+}
+
+.imgvenstre p{
+    padding-top: 3%;
+}
+
+
+.imgvenstre section{
+    width: 60%;
+}
+
+.imgvenstre div{
+    width: 50%;
+    text-align: center;
+}
+
+
+/* HØJRE */
+.imghoejre{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    display: flex;
+
+    border-bottom: solid;
+    border-color: black;
+}
+
+.imghoejre p{
+    padding-top: 3%;
+}
+
+.imghoejre section{
+    width: 60%;
+    text-align: right;
+}
+
+.imghoejre div{
+    width: 50%;
+    text-align: center;
+}
+
+
+/* LÆS MERE KNAP */
+button{
+    background-color:#1e929e;
+    color: #e1eded;
+    font-weight: bold;
+    font-family: 'raleway';
+    
+
+    border: none;
+    width: 110px;
+    
+    text-align: center;
+    margin-top: 3%;
+    padding: 3px;
+
+}
+
+button:hover{
+    background-color: #64a8b2;
+}
+
+/* ÅBNINGSTIDER & ADRESSE */
+.aa{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 2%;
+
+}
+
+/* KALENDER VENSTRE*/
+.kalendervenstre{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1%;
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    display: flex;
+
+    border-bottom: solid;
+    border-top: solid;
+    border-color: black;
+}
+
+.datotekstvenstre{
+    padding-left: 3%;
+}
+
+/* KALENDER HØJRE */
+.kalenderhoejre{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1%;
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    display: flex;
+}
+
+.datoteksthoejre{
+    padding-right: 3%;
+    text-align: right;
+}
+
+
+/* KALENDER GENERELLE REGLER*/
+.dato{
+    background-color: #64a8b2;
+    width: 30%;
+    text-align: center;
+}
+
+.dato h1{
+    font-size: 50pt;
+    color: #e1eded;
+}
+
+.dato p{
+    font-size: 20pt;
+    color: #e1eded;
+    padding-bottom: 7%;
+}
+
+#streg{
+    border-bottom: solid;
+    border-color: black;
+}
+
+
+
+/* BILLEDER */
+.langtbillede{
+    display: flex;
+    justify-items: center;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.trebilleder{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+    gap: 1%;
+    padding-top: 2%;
+    width: 100%;
+}
+
+.trebilleder img{
+    width: 15%;
+}
+
+.venstrebillede img{
+    width: 90%
+}
+
+.hoejrebillede img{
+    width: 90%;
+
+}
+
+
+/* FOOTER */ 
+footer{
+    width: 100%;
+    margin-top: 5%;
+    padding: 7%;
+    background-color: #64a8b2;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h2{
+    color: #e1eded;
+}
+
+footer p{
+    color: #e1eded;
+}
+
+/* MOBIL */
+#burger img{
+    width: 10%;
+
+}
+
+#burgermenu{
+    font-family: 'montserrat';
+    font-weight: 200;
+    font-size: 30px;
+    letter-spacing: 1px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 20%;
+    margin-left: 3%;
+
+    width: 90%;
+
+}
+
+
+/* RESPONSIVE */
+
+/* MOBIL LAYOUT */
+@media screen and (max-width:769px) {
+    /* MOBIL HEADER VISES */
+    #burger{
+        display: block;
+        height: 30px;
+    }
+
+    #kryds{
+        height: 30px;
+    }
+    
+    nav{
+        display: none;
+    }
+
+    .trebilleder img{
+        width: 25%
+    }
+
+    /* H2 STØRRELSESÆNDRING*/
+    .aa h2{
+        font-size: medium;
+    }
+
+    /* TEKSTBOKS STØRRELSE */
+    .brødtekst{
+        width: 80%
+    }
+
+    /* LAYOUT */
+    .imgvenstre{
+        width: 90%;
+    }
+
+    .imghoejre{
+        width: 90%;
+    }
+
+    /* KALENDER */
+    .kalendervenstre{
+        width: 70%;
+    }
+
+    .kalenderhoejre{
+        width: 70%;
+    }
+
+    .dato{
+        width: 40%;
+    }
+}
+
+/* LAPTOP LAYOUT */
+@media screen and (min-width:769px) {
+    #burger{
+        display: none;
+    }
+
+    nav{
+        display: block;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
