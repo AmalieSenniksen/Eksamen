@@ -123,9 +123,6 @@ nav a:hover{
     padding-bottom: 2%;
 
     display: flex;
-
-    border-bottom: solid;
-    border-color: black;
 }
 
 .imghoejre p{
@@ -144,23 +141,25 @@ nav a:hover{
 
 
 /* LÆS MERE KNAP */
-button{
+.knap{
     background-color:#1e929e;
     color: #e1eded;
     font-weight: bold;
     font-family: 'raleway';
+    font-size: small;
     
 
     border: none;
     width: 110px;
     
     text-align: center;
-    margin-top: 3%;
-    padding: 3px;
 
+    padding: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-button:hover{
+.knap:hover{
     background-color: #64a8b2;
 }
 
@@ -206,6 +205,7 @@ button:hover{
     padding-bottom: 2%;
 
     display: flex;
+    justify-content: right;
 }
 
 .datoteksthoejre{
